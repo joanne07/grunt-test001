@@ -1,0 +1,28 @@
+/usr/local/bin/yo-complete -> /usr/local/lib/node_modules/yo/lib/completion/index.js
+/usr/local/bin/yo -> /usr/local/lib/node_modules/yo/lib/cli.js
+
+> yo@2.0.0 postinstall /usr/local/lib/node_modules/yo
+> yodoctor
+
+
+Yeoman Doctor
+Running sanity checks on your system
+
+✔ Global configuration file is valid
+✔ NODE_PATH matches the npm root
+✔ Node.js version
+✖ No .bowerrc file in home directory
+
+We found a undefined file in your home directory. This can cause
+issues by overriding expected default config. Prefer setting up one `.bowerrc` per
+project.
+
+To delete the file, run: rm ~/.bowerrc
+
+✔ No .yo-rc.json file in home directory
+✔ npm version
+
+Found potential issues on your machine :(
+/usr/local/lib
+└── yo@2.0.0 
+
